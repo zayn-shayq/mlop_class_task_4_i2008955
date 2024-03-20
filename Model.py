@@ -1,9 +1,3 @@
-#!/usr/bin/env python
-# coding: utf-8
-
-# # Importing Libraries
-
-# In[27]:
 
 
 import numpy as np
@@ -41,7 +35,7 @@ import pickle
 # In[28]:
 
 
-data = pd.read_csv('driver_datasets.csv')
+data = pd.read_csv('Dataset.csv')
 
 
 # In[29]:
@@ -240,88 +234,4 @@ prediction = model.predict([input_data])
 
 # Print the prediction as JSON
 print({'prediction': prediction.tolist()})
-
-
-# In[ ]:
-
-
-
-
-
-# In[ ]:
-
-
-
-
-
-# In[ ]:
-
-
-
-
-
-# In[ ]:
-
-
-
-
-
-# In[ ]:
-
-
-
-
-
-# In[ ]:
-
-
-
-
-
-# In[ ]:
-
-
-
-
-
-# In[ ]:
-
-
-
-
-
-# In[ ]:
-
-
-
-
-
-# In[ ]:
-
-
-
-
-
-# In[ ]:
-
-
-
-
-
-# In[ ]:
-
-
-
-
-
-# In[ ]:
-
-
-
-
-
-# In[ ]:
-
-
-
 
