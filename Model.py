@@ -202,14 +202,14 @@ dt.fit(X_train, y_train)
 # In[44]:
 
 
-pickle.dump(dt, open('modelNew.pkl', 'wb' ) )
+pickle.dump(dt, open('model.pkl', 'wb' ) )
 
 
 # In[55]:
 
 
 # Load the model
-with open('modelNew.pkl', 'rb') as file:
+with open('model.pkl', 'rb') as file:
     model = pickle.load(file)
 
 
